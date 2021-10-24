@@ -6,7 +6,7 @@ The extension is not possible to install directly from Google Chrome Store becau
 
  1. Click on the green button *Code*. 
  2. Select Download ZIP. 
- 3. Unzip the downloaded file to an empty folder. 
+ 3. Unzip the downloaded file. 
  4. Open Extensions in Chrome (copy *chrome://extensions/* to URL or go to menu -> more tools -> extensions).
  5. Allow developer mode in the top right corner.
  6. Press button *Load unpacked* and choose folder with unzipped extension.
