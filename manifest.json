@@ -1,0 +1,33 @@
+{
+  "name": "Bet Tracker",
+  "description": "Save bets from betting sites directly to tracker from myodds.bet.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icons/16_transparent.png",
+    "32": "icons/32_transparent.png",
+    "48": "icons/48_transparent.png",
+    "128": "icons/128_transparent.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://egb.com/*",
+        "https://egb.com/*"
+      ],
+      "js": [
+        "bookies/egb.js"
+      ],
+      "css": [
+        "bookies/egb.css"
+      ]
+    }
+  ]
+}
